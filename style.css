@@ -1,31 +1,41 @@
-body{
-    background-color: #6091ad;
+body {
+    background-color: #6f9cbb;
 }
-.blink{
+
+.blink {
     animation: blinker 1s linear infinite;
 }
+
 @keyframes blinker {
-    50%{
+    50% {
         opacity: 0;
     }
 }
-.col--lines .time{
+
+.col--lines .time {
     background-color: #000000;
-    color: #ffff00;
+    color: #FFFF00;
 }
 
-.col--trafic{
+.col--traffic {
     background-color: #ffffff;
 }
 
-.lines div{
-    background-color: white;
+.lines div {
+    background-color: #ffffff;
     padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
 }
 
-.line--works{
-    background-color: yellow !important;
+.line--critical {
+    background-color: #FF0000 !important;
 }
-.line--critical{
-    background-color: red !important;
+
+.line--works {
+    background-color: #FFFF00 !important;
+}
+
+.lines--metros, .lines--rers, .lines--tramways{
+    padding-top: 30px;
 }
